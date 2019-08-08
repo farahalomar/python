@@ -32,7 +32,7 @@ while True:
 	if (action == 1):
 		if len(employees) == 0:			
 			print("-----------------")
-			print("The list is empty, please add an employee to show results!")
+			print("Please add an employee!")
 			print("----------------- \n")
 		else:
 			for emplist in employees:				
@@ -44,7 +44,7 @@ while True:
 	elif (action == 2):
 		if len(managers) == 0:			
 			print("-----------------")
-			print("The list is empty, please add an manager to show results!")
+			print("Please add a manager!")
 			print("----------------- \n")
 		else:
 			for mnglist in managers:				
@@ -75,4 +75,4 @@ while True:
 	elif (action == 5):
 		break
 	else:
-		print("Action not available! .. please select from 1 to 5.")
+		print("Invalid selection, please select a number from 1 to 5.")
